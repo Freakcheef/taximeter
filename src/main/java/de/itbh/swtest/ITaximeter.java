@@ -15,8 +15,15 @@ public interface ITaximeter {
 	 * discount) -> Upcharge (20% for nightrides)
 	 * 
 	 * @param distance
-	 * @return
+	 * @return price for the ride
 	 */
-	public double calculate(int distance, LocalTime startTime, boolean luggage);
+	public int calculate(int distance, LocalTime startTime, boolean luggage);
 
+	/**
+	 * Calculates if a given starttime results in a nightride
+	 * 
+	 * @param startTime
+	 * @return if nightride
+	 */
+	public boolean isNightride(LocalTime startTime);
 }
