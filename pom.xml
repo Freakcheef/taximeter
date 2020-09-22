@@ -10,9 +10,9 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<java.version>14</java.version>
-		<maven.compiler.target>14</maven.compiler.target>
-		<maven.compiler.source>14</maven.compiler.source>
+		<java.version>11</java.version>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.host.url>http://192.168.99.100:9000</sonar.host.url>
 	</properties>
