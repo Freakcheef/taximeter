@@ -25,5 +25,5 @@ public interface ITaximeter {
 	 * @param startTime
 	 * @return if nightride
 	 */
-	public boolean isNightride(LocalTime startTime);
+	public boolean isNightRide(LocalTime startTime);
 }
